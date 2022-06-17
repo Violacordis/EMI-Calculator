@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylesheet.css"> 
+    <title>My First Project</title>
+</head>
+<body>
+    <div id="loan-calsection">
+        <div class="container">
+            <div id="header-form">
+                <h1>Loan EMI Calculator.</h1>
+            </div>
+            
+            <form id="form-field">
+                
+                    <input type="number" id="amount" placeholder="Loan amount(in naira)"  required> <br>
+                    <input type="number" id="rate" placeholder="Interest rate" required> <br>
+                    <input type="number" id="months" placeholder="month(s)" required> <br>
+                    <input id="submit-btn" type="submit" value="Calculate">
+                    <div id="result-form">
+                        <h5> Result</h5>
+                       
+                
+                   
+            </form>
+                    <div id="result-field">
+                        <!-- <span id="monthly-payment">monthly payment:</span>  -->
+                        <input id="resultDisplay" type="number">
+                    </div>
+        </div>
+    </div>
+    
+    
+</body>
+<script src="index.js"></script>
+
+
+</html>
