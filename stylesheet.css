@@ -2,6 +2,12 @@
     box-sizing: border-box;
 }
 
+body {
+    display: flex;
+    justify-content: center;
+    align-item: center;
+}
+
 #loan-calsection {
     width: 800px;
     height: auto;
